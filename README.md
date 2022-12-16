@@ -2,7 +2,7 @@
 
 ## Quick start - Cloud Shell 
 
-**Required:** please see required setup steps detailed in `setup_notebook.ipynb`
+**Required:** please see required setup steps detailed in `docs/setup_notebook.ipynb`
 
 To run RStudio on [Cloud Shell](https://cloud.google.com/shell/docs/using-cloud-shell) and if you've already completed the steps in`setup_notebook.ipynb`:
 
@@ -13,12 +13,12 @@ To run RStudio on [Cloud Shell](https://cloud.google.com/shell/docs/using-cloud-
 ```sh
 git clone -b test-workbench https://github.com/justinjm/r-google-cloud-ai &&
     cd r-google-cloud-ai/ && 
-    sh run_rstudio.sh 
+    sh 02_run_rstudio.sh 
 ```
 
 ## Setup
 
-See `setup_notebook.ipynb` for setup instructions 
+See `docs/setup_notebook.ipynb` for setup instructions or run `01_build.sh` (TODO)
 
 ## Acknowledgements 
 
