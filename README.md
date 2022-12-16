@@ -13,7 +13,7 @@ To run RStudio on [Cloud Shell](https://cloud.google.com/shell/docs/using-cloud-
 ```sh
 git clone -b test-workbench https://github.com/justinjm/r-google-cloud-ai &&
     cd r-google-cloud-ai/ && 
-    run_rstudio.sh 
+    sh run_rstudio.sh 
 ```
 
 ## Setup
