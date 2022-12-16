@@ -1,11 +1,25 @@
 # R on Google Cloud AI Platform
-Google Cloud AI Platform offers a flexible set of tools for all steps along the machine learning journey. Although Cloud AI Platform most prominently supports Python-based workflows, it's really possible to use any language thanks to the platform's use of Docker.
 
-This repo offers code and tutorials for how to use R with AI Platform.
+## Quick start - Cloud Shell 
 
-## Components
+**Required:** please see required setup steps detailed in `setup_notebook.ipynb`
 
-- [Notebooks:](docs/notebooks.md) how to use RStudio + R in a managed notebook instance
+To run RStudio on [Cloud Shell](https://cloud.google.com/shell/docs/using-cloud-shell) and if you've already completed the steps in`setup_notebook.ipynb`:
 
-## Advice on using Cloud APIs
-Although there are some R packages for interacting with Google Cloud APIs, you'll find the best luck using `gcloud` in your code (through `system`). To call APIs not available from `gcloud`, you can build the respective discovery client using (googleAuthR)[https://cran.r-project.org/web/packages/googleAuthR/vignettes/building.html]
+1. open [Google Cloud Console](https://console.cloud.google.com/home/dashboard) 
+2. click  cloud shell terminal window 
+3. Run the following command (to download this repo and run script)
+
+```sh
+git clone -b test-workbench https://github.com/justinjm/r-google-cloud-ai &&
+    cd r-google-cloud-ai/ && 
+    run_rstudio.sh 
+```
+
+## Setup
+
+See `setup_notebook.ipynb` for setup instructions 
+
+## Acknowledgements 
+
+Original author of source code for Docker image and deployment [htappen/r-google-cloud-ai](https://github.com/htappen/r-google-cloud-ai)
