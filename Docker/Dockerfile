@@ -1,4 +1,4 @@
-FROM gcr.io/deeplearning-platform-release/r-cpu
+FROM gcr.io/deeplearning-platform-release/r-cpu.4-0
 
 # Install nginx to be a reverse proxy
 RUN \
