@@ -4,7 +4,7 @@
 
 **Required:** please see required setup steps detailed in [`01_build.ipynb`](01_build.ipynb)
 
-To run RStudio on [Cloud Shell](https://cloud.google.com/shell/docs/using-cloud-shell) and if you've already completed the steps in`setup_notebook.ipynb`:
+To run RStudio on [Cloud Shell](https://cloud.google.com/shell/docs/using-cloud-shell) and if you've already completed the setup steps in [`01_build.ipynb`](01_build.ipynb):
 
 1. open [Google Cloud Console](https://console.cloud.google.com/home/dashboard) 
 2. click cloud shell terminal window 
